@@ -1,5 +1,71 @@
 body {
-    justify-items: center;
-    align-content: center;
-    height: 100vh;
+  font-family: 'Inter', sans-serif;
+  transition: background 0.5s ease;
+  background-color: #0d1224;
+  color: #fff;
+}
+
+/* Container utama */
+section {
+  background-color: #1c1f2b;
+  color: #d4d8f7;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+/* Input style */
+input {
+  background-color: #262b3d;
+  color: #d0d4ff;
+  border: none;
+}
+input::placeholder {
+  color: #8087a2;
+}
+
+/* Tombol umum */
+button {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+/* Tombol Add */
+#add-todo-btn {
+  background-color: #6c63ff;
+  color: #fff;
+}
+#add-todo-btn:hover {
+  background-color: #574bff;
+}
+
+/* Tombol Clear dan Filter */
+#clear-all-btn,
+#filter-todos-btn {
+  background-color: #353b4d;
+  color: #fff;
+}
+#clear-all-btn:hover {
+  background-color: #e14b4b;
+}
+#filter-todos-btn:hover {
+  background-color: #444b66;
+}
+
+/* Tabel */
+table {
+  background-color: #202538;
+  color: #d4d8f7;
+  border-collapse: collapse;
+  width: 100%;
+}
+thead {
+  background-color: #2f3550;
+  color: #b8bef7;
+}
+td, th {
+  border: 1px solid #2f3550;
+  padding: 0.6rem;
+}
+tbody tr:hover {
+  background-color: #353c5b;
 }
